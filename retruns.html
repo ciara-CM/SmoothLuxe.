@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="returns, refund, policy, SmoothLuxe">
+<meta name="author" content="Ciara Mooney">
+<title> Returns- SmoothLuxe</title>
+<link rel= "stylesheet" href="returns.css">
+<script>
+function handleSubmit(event) {
+event.preventDefault();
+
+document.getElementById("name").value = "";
+document.getElementById("email").value = "";
+document.getElementById("orderNumber").value ="";
+document.getElementById("message").value ="";
+ 
+alert("Thank you for your query! We will get back to you as soon as possible.");
+}
+</script>
+
+</head>
+
+<body>
+<header>
+<div class="navbar">
+<ul>
+<li><a href= "index.html"> Home</a></li>
+<li><a href="about.html">Our Product</a></li>
+<li><a href="retruns.html">Returns Policy</a></li>
+</ul>
+</div>
+<div class="top-border"></div>
+<h1> Returns Policy</h1>
+<h4> Your satisfaction is important to us and we strive to make returns as easy as possible.</h4>
+</header>
+
+<main>
+<section class="returns-policy">
+<h2> Terms and Conditions</h2>
+<p> At SmoothLuxe, we want you to be completely satisfied with your purchase. If for any reason you are not satisfied, please review our returns policy</p>
+<ul>
+<li><strong>Return Period:</strong> You have 30 days from the date of purchase to return your product.</li>
+<li><strong>Conditions of Returns:</strong> The item must be unused, in its original packaging and in the same condition as purchased. Items such as used razors and opened products are not eligible for returns</li>
+<li><strong>How to Return:</strong> Please contact our customer service team via email to initiate a return.(Email link below)</li>
+<li></strong>Refund Process:</strong> Once we received your return, we will process your refund to the original method of payment. Please note that this can take anywhere up to two working weeks.</li>
+</ul>
+<h3>Contact Uș:</h3>
+<p> To make a return please email <a href="mailto:returns@smoothluxe.com">returns@SmoothLuxe.com</a>. If you have any questions or need assistance , please reach out to us at <a href="mailto:support@smoothluxe.com">support@SmoothLuxe.com</a>.</p>
+</section>
+<section class="contact-form-section">
+<h2>Contact us for returns</h2>
+<p> If you have any issues or concerns regarding returns, please fill out the form below and we will get back to you as soon as possible.</p>
+
+
+<form onsubmit="handleSubmit(event)">
+<table class="contact-table">
+<tr>
+<td><label for="name"> Full Name:</label></td>
+<td><input type="text" id="name" name="name" required></td>
+</tr>
+<tr>
+<td><label for="email">Email Address:</label></td>
+<td><input type="text" id="email" name="email" required></td>
+
+<td><label for="orderNumber">Order Number:</label></td>
+<td><input type="text" id="orderNumber" name="orderNumber" required></td>
+
+<td><label for="message">Message:</label></td>
+<td><textarea id="message" name="message" rows="4" required></textarea></td>
+
+</tr>
+<tr>
+<td colspan="2" style="text-align: center;">
+<button type="submit">Submit</button>
+</td>
+</tr>
+</table>
+</form>
+<script>
+function handleSubmit(event) {
+event.preventDefault();
+document.getElementById("name").value ="";
+document.getElementById("email").value ="";
+document.getElementById("orderNumber").Value= "";
+document.getElementById("message").value ="";
+alert("Thank you for your query! We will get back to you as soon as possible.")
+}
+</script>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2024 SmoothLuxe. Designed with care for a smoother future.</p>
+</footer>
+
+</body>
+</html>
+

@@ -1,0 +1,140 @@
+
+
+
+header {
+    text-align: center;
+    padding: 20px 15px;
+    background: linear-gradient(to bottom, #e0aeb5, #f8f4f0); 
+    border-bottom: 3px solid #e0aeb5; 
+}
+
+header .top-border {
+    width: 100%;
+    height: 10px;
+    background-color: #e0aeb5; 
+}
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar ul li a {
+    color: #333333; 
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #e0aeb5; 
+}
+
+
+.hero-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    Flex-wrap: wrap;
+    height: 20vh;
+    margin-top: 20px 0;
+}
+
+.hero-images img {
+    width: 150;
+    height: 150px;
+    border-radius: 50px;
+    object-fit: cover;
+    border: 5px solid #e0aeb5;
+}
+
+
+.features {
+    text-align: center;
+    padding: 40px;
+}
+
+.features-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.feature-item {
+    background-color: #ffffff;
+    border: 1px solid #e0aeb5;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow:0 4px 8px rgba (0,0,0,0.1)
+}
+
+.feature-item h3 {
+    color: #e0aeb5;
+}
+.feature-item p{
+ Color:#333333;
+ Font-weight: normal;
+Font-size: 1em;
+}
+.video-section{
+    Text-align: center;
+    Margin-bottom: 40px;
+}
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+.video-embed {
+    border: 5px solid #e0aeb5; /* Pink border */
+    border-radius: 10px; /* Rounded corners */
+}
+
+.cta {
+    text-align: center; 
+    padding: 40px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.cta button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #e0aeb5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s ease;
+    display: inline-block;
+}
+
+.cta button:hover {
+    background-color: #b38288; /* Muted rose */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f4f0;
+    border-top: 3px solid #e0aeb5;
+    color: #333333;
+}
+
